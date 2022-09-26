@@ -612,7 +612,7 @@ if (reversed == null) { reversed = false; }
 
 	// Capa_5
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#00FFFF").ss(3,1,1).p("AhXgTQAGgeAVgVQAdgdApAAQAqAAAdAdQAdAdAAApQAAAqgdAdQgdAdgqAAQghAAgagTAhSAXQgEgMAAgLQAAgKACgJIAaAAIgYAqIgBABIgagrIAWAAIADAA");
+	this.shape.graphics.f().s("#00FFFF").ss(3,1,1).p("AhXgTQAGgeAVgVQAdgdApAAQAqAAAdAdQAdAdAAApQAAAqgdAdQgdAdgqAAQghAAgagTAhSAXIgBABIgagrIAWAAIADAAAhSAXQgEgMAAgLQAAgKACgJIAaAAg");
 	this.shape.setTransform(129.675,11.25);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -1553,9 +1553,21 @@ if (reversed == null) { reversed = false; }
 	this.p8.name = "p8";
 	this.p8.setTransform(-20.6,-32.55);
 
+	this.p7 = new lib.p11_1();
+	this.p7.name = "p7";
+	this.p7.setTransform(-32.2,-21.3);
+
+	this.p6 = new lib.p10_1();
+	this.p6.name = "p6";
+	this.p6.setTransform(-32.2,21.2);
+
 	this.p5 = new lib.p16_1();
 	this.p5.name = "p5";
 	this.p5.setTransform(-20.9,32.4);
+
+	this.p4 = new lib.p12_1();
+	this.p4.name = "p4";
+	this.p4.setTransform(20.9,32.4);
 
 	this.p3 = new lib.p15_1();
 	this.p3.name = "p3";
@@ -1569,19 +1581,7 @@ if (reversed == null) { reversed = false; }
 	this.p1.name = "p1";
 	this.p1.setTransform(21.5,-32.65);
 
-	this.p4 = new lib.p12_1();
-	this.p4.name = "p4";
-	this.p4.setTransform(20.9,32.4);
-
-	this.p7 = new lib.p11_1();
-	this.p7.name = "p7";
-	this.p7.setTransform(-32.2,-21.3);
-
-	this.p6 = new lib.p10_1();
-	this.p6.name = "p6";
-	this.p6.setTransform(-32.2,21.2);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.p6},{t:this.p7},{t:this.p4},{t:this.p1},{t:this.p2},{t:this.p3},{t:this.p5},{t:this.p8}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.p1},{t:this.p2},{t:this.p3},{t:this.p4},{t:this.p5},{t:this.p6},{t:this.p7},{t:this.p8}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1698,31 +1698,31 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
 
 	// Capa_2
-	this.pizza6 = new lib.pizza();
-	this.pizza6.name = "pizza6";
-	this.pizza6.setTransform(180.2,73.65,1,1,0,0,0,0.5,-0.4);
+	this.pizza4 = new lib.pizza();
+	this.pizza4.name = "pizza4";
+	this.pizza4.setTransform(-178.7,73.65,1,1,0,0,0,0.5,-0.4);
 
 	this.pizza5 = new lib.pizza();
 	this.pizza5.name = "pizza5";
 	this.pizza5.setTransform(1.2,73.65,1,1,0,0,0,0.5,-0.4);
 
-	this.pizza4 = new lib.pizza();
-	this.pizza4.name = "pizza4";
-	this.pizza4.setTransform(-178.7,73.65,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(180.2,-131.7,1,1,0,0,0,0.5,-0.4);
+	this.pizza1 = new lib.pizza();
+	this.pizza1.name = "pizza1";
+	this.pizza1.setTransform(-177.8,-131.7,1,1,0,0,0,0.5,-0.4);
 
 	this.pizza2 = new lib.pizza();
 	this.pizza2.name = "pizza2";
 	this.pizza2.setTransform(1.2,-131.7,1,1,0,0,0,0.5,-0.4);
 
-	this.pizza1 = new lib.pizza();
-	this.pizza1.name = "pizza1";
-	this.pizza1.setTransform(-177.8,-131.7,1,1,0,0,0,0.5,-0.4);
+	this.pizza6 = new lib.pizza();
+	this.pizza6.name = "pizza6";
+	this.pizza6.setTransform(180.2,73.65,1,1,0,0,0,0.5,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3},{t:this.pizza4},{t:this.pizza5},{t:this.pizza6}]}).wait(1));
+	this.pizza3 = new lib.pizza();
+	this.pizza3.name = "pizza3";
+	this.pizza3.setTransform(180.2,-131.7,1,1,0,0,0,0.5,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza3},{t:this.pizza6},{t:this.pizza2},{t:this.pizza1},{t:this.pizza5},{t:this.pizza4}]}).wait(1));
 
 	// Capa_1
 	this.instance = new lib.tablaPizza();
@@ -1819,128 +1819,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.group6, new cjs.Rectangle(-242,-244.1,484.8,439.9), null);
 
 
-(lib.group5 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_4
-	this.btn_reload = new lib.reset();
-	this.btn_reload.name = "btn_reload";
-	this.btn_reload.setTransform(183.35,-225.25,1,1,0,0,0,95.5,11.8);
-
-	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
-
-	// Capa_2
-	this.pizza5 = new lib.pizza();
-	this.pizza5.name = "pizza5";
-	this.pizza5.setTransform(1.2,73.65,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza4 = new lib.pizza();
-	this.pizza4.name = "pizza4";
-	this.pizza4.setTransform(-178.7,73.65,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(180.2,-131.7,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza2 = new lib.pizza();
-	this.pizza2.name = "pizza2";
-	this.pizza2.setTransform(1.2,-131.7,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza1 = new lib.pizza();
-	this.pizza1.name = "pizza1";
-	this.pizza1.setTransform(-177.8,-131.7,1,1,0,0,0,0.5,-0.4);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3},{t:this.pizza4},{t:this.pizza5}]}).wait(1));
-
-	// Capa_1
-	this.instance = new lib.tablaPizza();
-	this.instance.setTransform(-62,12,1.033,1.033);
-
-	this.instance_1 = new lib.tablaPizza();
-	this.instance_1.setTransform(-241,12,1.033,1.033);
-
-	this.instance_2 = new lib.tablaPizza();
-	this.instance_2.setTransform(117,-193,1.033,1.033);
-
-	this.instance_3 = new lib.tablaPizza();
-	this.instance_3.setTransform(-62,-193,1.033,1.033);
-
-	this.instance_4 = new lib.tablaPizza();
-	this.instance_4.setTransform(-241,-193,1.033,1.033);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-	// Capa_3
-	this.text = new cjs.Text("se comieron 0 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(0.85,146.8);
-
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape.setTransform(0.85,168.25);
-
-	this.text_1 = new cjs.Text("se comieron 7 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(-177.1,146.8);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_1.setTransform(-177.1,168.25);
-
-	this.text_2 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(179.2,-58.7);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_2.setTransform(179.2,-37.25);
-
-	this.text_3 = new cjs.Text("se comieron 1 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 116;
-	this.text_3.parent = this;
-	this.text_3.setTransform(0.95,-58.7);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_3.setTransform(0.95,-37.25);
-
-	this.text_4 = new cjs.Text("se comieron 2 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 22;
-	this.text_4.lineWidth = 116;
-	this.text_4.parent = this;
-	this.text_4.setTransform(-177.25,-58.7);
-
-	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_4.setTransform(-177.8,-37.25);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.text_4},{t:this.shape_3},{t:this.text_3},{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.group5, new cjs.Rectangle(-241.4,-244,484.20000000000005,439.8), null);
-
-
 (lib.group4 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1960,27 +1838,27 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
 
 	// Capa_2
-	this.pizza5 = new lib.pizza();
-	this.pizza5.name = "pizza5";
-	this.pizza5.setTransform(267.8,281.6,1,1,0,0,0,0.5,-0.4);
-
 	this.pizza4 = new lib.pizza();
 	this.pizza4.name = "pizza4";
 	this.pizza4.setTransform(87.9,281.6,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(446.8,76.25,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza2 = new lib.pizza();
-	this.pizza2.name = "pizza2";
-	this.pizza2.setTransform(267.8,76.25,1,1,0,0,0,0.5,-0.4);
 
 	this.pizza1 = new lib.pizza();
 	this.pizza1.name = "pizza1";
 	this.pizza1.setTransform(88.8,76.25,1,1,0,0,0,0.5,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3},{t:this.pizza4},{t:this.pizza5}]}).wait(1));
+	this.pizza2 = new lib.pizza();
+	this.pizza2.name = "pizza2";
+	this.pizza2.setTransform(267.8,76.25,1,1,0,0,0,0.5,-0.4);
+
+	this.pizza5 = new lib.pizza();
+	this.pizza5.name = "pizza5";
+	this.pizza5.setTransform(267.8,281.6,1,1,0,0,0,0.5,-0.4);
+
+	this.pizza3 = new lib.pizza();
+	this.pizza3.name = "pizza3";
+	this.pizza3.setTransform(446.8,76.25,1,1,0,0,0,0.5,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza3},{t:this.pizza5},{t:this.pizza2},{t:this.pizza1},{t:this.pizza4}]}).wait(1));
 
 	// Capa_1
 	this.instance = new lib.tablaPizza();
@@ -2082,23 +1960,23 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
 
 	// Capa_3
-	this.pizza4 = new lib.pizza();
-	this.pizza4.name = "pizza4";
-	this.pizza4.setTransform(62.7,267.25,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(421.6,61.9,1,1,0,0,0,0.5,-0.4);
+	this.pizza1 = new lib.pizza();
+	this.pizza1.name = "pizza1";
+	this.pizza1.setTransform(64.6,61.9,1,1,0,0,0,0.5,-0.4);
 
 	this.pizza2 = new lib.pizza();
 	this.pizza2.name = "pizza2";
-	this.pizza2.setTransform(242.6,61.9,1,1,0,0,0,0.5,-0.4);
+	this.pizza2.setTransform(243.6,61.9,1,1,0,0,0,0.5,-0.4);
 
-	this.pizza1 = new lib.pizza();
-	this.pizza1.name = "pizza1";
-	this.pizza1.setTransform(63.6,61.9,1,1,0,0,0,0.5,-0.4);
+	this.pizza4 = new lib.pizza();
+	this.pizza4.name = "pizza4";
+	this.pizza4.setTransform(63.7,267.25,1,1,0,0,0,0.5,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3},{t:this.pizza4}]}).wait(1));
+	this.pizza3 = new lib.pizza();
+	this.pizza3.name = "pizza3";
+	this.pizza3.setTransform(422.6,61.9,1,1,0,0,0,0.5,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza3},{t:this.pizza4},{t:this.pizza2},{t:this.pizza1}]}).wait(1));
 
 	// Capa_2
 	this.instance = new lib.tablaPizza();
@@ -2164,111 +2042,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.group3, new cjs.Rectangle(0,-49.2,484.2,439.9), null);
-
-
-(lib.group2 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_5
-	this.btn_reload = new lib.reset();
-	this.btn_reload.name = "btn_reload";
-	this.btn_reload.setTransform(186.75,-210.55,1,1,0,0,0,95.5,11.8);
-
-	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
-
-	// Capa_2
-	this.pizza4 = new lib.pizza();
-	this.pizza4.name = "pizza4";
-	this.pizza4.setTransform(-175.3,86.05,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(183.6,-119.3,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza2 = new lib.pizza();
-	this.pizza2.name = "pizza2";
-	this.pizza2.setTransform(4.6,-119.3,1,1,0,0,0,0.5,-0.4);
-
-	this.pizza1 = new lib.pizza();
-	this.pizza1.name = "pizza1";
-	this.pizza1.setTransform(-174.4,-119.3,1,1,0,0,0,0.5,-0.4);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3},{t:this.pizza4}]}).wait(1));
-
-	// Capa_3
-	this.instance = new lib.tablaPizza();
-	this.instance.setTransform(-238,24,1.033,1.033);
-
-	this.instance_1 = new lib.tablaPizza();
-	this.instance_1.setTransform(120,-181,1.033,1.033);
-
-	this.instance_2 = new lib.tablaPizza();
-	this.instance_2.setTransform(-59,-181,1.033,1.033);
-
-	this.instance_3 = new lib.tablaPizza();
-	this.instance_3.setTransform(-238,-181,1.033,1.033);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-	// Capa_4
-	this.text = new cjs.Text("se comieron 0 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(-174.4,159.1);
-
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape.setTransform(-174.4,180.55);
-
-	this.text_1 = new cjs.Text("se comieron 7 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(181.9,-46.4);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_1.setTransform(181.9,-24.95);
-
-	this.text_2 = new cjs.Text("se comieron 2 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(3.65,-46.4);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_2.setTransform(3.65,-24.95);
-
-	this.text_3 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 116;
-	this.text_3.parent = this;
-	this.text_3.setTransform(-174.55,-46.4);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
-	this.shape_3.setTransform(-175.1,-24.95);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.text_3},{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.group2, new cjs.Rectangle(-238,-229.3,484.2,437.4), null);
+}).prototype = getMCSymbolPrototype(lib.group3, new cjs.Rectangle(1,-49.2,484.2,439.9), null);
 
 
 (lib.group1 = function(mode,startPosition,loop,reversed) {
@@ -2306,19 +2080,19 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.btn_reload).wait(1));
 
 	// Capa_2
-	this.pizza3 = new lib.pizza();
-	this.pizza3.name = "pizza3";
-	this.pizza3.setTransform(451.7,130.75,1,1,0,0,0,0.5,-0.4);
+	this.pizza1 = new lib.pizza();
+	this.pizza1.name = "pizza1";
+	this.pizza1.setTransform(93.7,130.75,1,1,0,0,0,0.5,-0.4);
 
 	this.pizza2 = new lib.pizza();
 	this.pizza2.name = "pizza2";
 	this.pizza2.setTransform(272.7,130.75,1,1,0,0,0,0.5,-0.4);
 
-	this.pizza1 = new lib.pizza();
-	this.pizza1.name = "pizza1";
-	this.pizza1.setTransform(93.7,130.75,1,1,0,0,0,0.5,-0.4);
+	this.pizza3 = new lib.pizza();
+	this.pizza3.name = "pizza3";
+	this.pizza3.setTransform(451.7,130.75,1,1,0,0,0,0.5,-0.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza1},{t:this.pizza2},{t:this.pizza3}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pizza3},{t:this.pizza2},{t:this.pizza1}]}).wait(1));
 
 	// Capa_3
 	this.instance = new lib.tablaPizza();
@@ -2391,38 +2165,24 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.timer).wait(1));
 
-	// group6
-	this.group_6 = new lib.group6();
-	this.group_6.name = "group_6";
-	this.group_6.setTransform(469.6,272,1,1,0,0,0,0.4,0.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.group_6).wait(1));
-
-	// group5
-	this.group_5 = new lib.group5();
-	this.group_5.name = "group_5";
-	this.group_5.setTransform(469.3,272.05,1,1,0,0,0,0.7,0.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.group_5).wait(1));
-
 	// group4
-	this.group_4 = new lib.group4();
+	this.group_4 = new lib.group6();
 	this.group_4.name = "group_4";
-	this.group_4.setTransform(469.2,272.7,1,1,0,0,0,267.2,208.6);
+	this.group_4.setTransform(469.6,272,1,1,0,0,0,0.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.group_4).wait(1));
 
 	// group3
-	this.group_3 = new lib.group3();
+	this.group_3 = new lib.group4();
 	this.group_3.name = "group_3";
-	this.group_3.setTransform(468.8,271.25,1,1,0,0,0,242.1,194.9);
+	this.group_3.setTransform(469.2,272.7,1,1,0,0,0,267.2,208.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.group_3).wait(1));
 
 	// group2
-	this.group_2 = new lib.group2();
+	this.group_2 = new lib.group3();
 	this.group_2.name = "group_2";
-	this.group_2.setTransform(468.8,271.9,1,1,0,0,0,4.1,13);
+	this.group_2.setTransform(468.8,271.25,1,1,0,0,0,242.1,194.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.group_2).wait(1));
 
@@ -2536,28 +2296,21 @@ if (reversed == null) { reversed = false; }
 		var g2 = esc_2.group_2;
 		var g3 = esc_2.group_3;				 
 		var g4 = esc_2.group_4;
-		var g5 = esc_2.group_5;
-		var g6 = esc_2.group_6;
 						 
-		var pizza_groups = [g1, g2, g3, g4, g5, g6];
+		var pizza_groups = [g1, g2, g3, g4];
 		
 		var	total_pizzas_group1 = 24;
 		var	total_pizzas_group2 = 32;
-		var	total_pizzas_group3 = 32;
-		var	total_pizzas_group4 = 40;
-		var	total_pizzas_group5 = 40;
-		var	total_pizzas_group6 = 48;
+		var	total_pizzas_group3 = 40;
+		var	total_pizzas_group4 = 48;
 		
 		var	remaining_pizzas_group1 = 0;
 		var	remaining_pizzas_group2 = 0;
 		var	remaining_pizzas_group3 = 0;
 		var	remaining_pizzas_group4 = 0;
-		var	remaining_pizzas_group5 = 0;
-		var	remaining_pizzas_group6 = 0;
 		
 		var remaining_pizzas = [
-		remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, 
-		remaining_pizzas_group4, remaining_pizzas_group5, remaining_pizzas_group6];
+		remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, remaining_pizzas_group4];
 		
 		var order_number = 0;
 		
@@ -2567,7 +2320,7 @@ if (reversed == null) { reversed = false; }
 		
 		var _current = 0;
 		var seg = 0;
-		var min = 8;
+		var min = 7;
 		var time;
 		var timer;
 		
@@ -2587,8 +2340,6 @@ if (reversed == null) { reversed = false; }
 			esc_2.group_2.btn_reload.addEventListener("click", _reload_group.bind(this));
 			esc_2.group_3.btn_reload.addEventListener("click", _reload_group.bind(this));
 			esc_2.group_4.btn_reload.addEventListener("click", _reload_group.bind(this));
-			esc_2.group_5.btn_reload.addEventListener("click", _reload_group.bind(this));
-			esc_2.group_6.btn_reload.addEventListener("click", _reload_group.bind(this));
 			
 			console.log('true');
 			
@@ -2597,8 +2348,7 @@ if (reversed == null) { reversed = false; }
 		function _startGame(){
 			
 			remaining_pizzas = [
-			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, 
-			remaining_pizzas_group4, remaining_pizzas_group5, remaining_pizzas_group6];
+			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, remaining_pizzas_group4];
 			
 			esc_2.timer.txt_timer.text = `0${min} : 0${seg}`;
 			esc_2.nota_2.txt.text = `Mesa ${order_number + 1}`;
@@ -2620,8 +2370,7 @@ if (reversed == null) { reversed = false; }
 		function _changePizzaGroup(){
 			
 			remaining_pizzas = [
-			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, 
-			remaining_pizzas_group4, remaining_pizzas_group5, remaining_pizzas_group6];
+			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, remaining_pizzas_group4];
 			
 			hideComponent(pizza_groups[order_number]);
 			hideComponent(esc_2.nota_2.txt);
@@ -2635,7 +2384,7 @@ if (reversed == null) { reversed = false; }
 			showComponent(esc_2.nota_2.txt, 1000);
 			showComponent(esc_2.nota_3.txt, 1000);
 			
-			if (order_number > 4){
+			if (order_number > 2){
 				esc_2.btn_next.visible=false;
 				esc_2.btn_finish.visible=true;
 			}
@@ -2668,17 +2417,13 @@ if (reversed == null) { reversed = false; }
 			
 			total_pizzas_group1 = 24;
 			total_pizzas_group2 = 32;
-			total_pizzas_group3 = 32;
-			total_pizzas_group4 = 40;
-			total_pizzas_group5 = 40;
-			total_pizzas_group6 = 48;
+			total_pizzas_group3 = 40;
+			total_pizzas_group4 = 48;
 		
 			remaining_pizzas_group1 = 0;
 			remaining_pizzas_group2 = 0;
 			remaining_pizzas_group3 = 0;
 			remaining_pizzas_group4 = 0;
-			remaining_pizzas_group5 = 0;
-			remaining_pizzas_group6 = 0;
 			
 			order_number = 0;
 			
@@ -2689,7 +2434,7 @@ if (reversed == null) { reversed = false; }
 			esc_2.btn_next.visible = true;
 				
 			seg = 0;
-			min = 8;
+			min = 7;
 				
 			_current = 0;
 			
@@ -2699,8 +2444,7 @@ if (reversed == null) { reversed = false; }
 		function _increase(){
 			
 			var remaining_pizzas = [
-			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, 
-			remaining_pizzas_group4, remaining_pizzas_group5, remaining_pizzas_group6];
+			remaining_pizzas_group1, remaining_pizzas_group2, remaining_pizzas_group3, remaining_pizzas_group4];
 			
 			if (order_number == 0){
 				remaining_pizzas_group1++;
@@ -2717,14 +2461,6 @@ if (reversed == null) { reversed = false; }
 			else if ( order_number == 3 ){
 				remaining_pizzas_group4++;
 				esc_2.nota_3.txt.text = remaining_pizzas_group4;
-			}
-			else if ( order_number == 4 ) {
-				remaining_pizzas_group5++;
-				esc_2.nota_3.txt.text = remaining_pizzas_group5;
-			}
-			else if ( order_number == 5 ) {
-				remaining_pizzas_group6++;
-				esc_2.nota_3.txt.text = remaining_pizzas_group6;
 			}
 		}
 		
@@ -2746,14 +2482,6 @@ if (reversed == null) { reversed = false; }
 				remaining_pizzas_group4--;
 				esc_2.nota_3.txt.text = remaining_pizzas_group4;
 			}
-			else if ( order_number == 4 ) {
-				remaining_pizzas_group5--;
-				esc_2.nota_3.txt.text = remaining_pizzas_group5;
-			}
-			else if ( order_number == 5 ) {
-				remaining_pizzas_group6--;
-				esc_2.nota_3.txt.text = remaining_pizzas_group6;
-			}
 		}
 		
 		function _reload_group(){
@@ -2770,23 +2498,13 @@ if (reversed == null) { reversed = false; }
 			}
 			else if (order_number == 2 ){
 				remaining_pizzas_group3 = 0;
-				total_pizzas_group3 = 32;
+				total_pizzas_group3 = 40;
 				esc_2.nota_3.txt.text = remaining_pizzas_group3;
 			}
 			else if ( order_number == 3 ){
 				remaining_pizzas_group4 = 0;
-				total_pizzas_group4 = 40;
+				total_pizzas_group4 = 48;
 				esc_2.nota_3.txt.text = remaining_pizzas_group4;
-			}
-			else if ( order_number == 4 ) {
-				remaining_pizzas_group5 = 0;
-				total_pizzas_group5 = 40;
-				esc_2.nota_3.txt.text = remaining_pizzas_group5;
-			}
-			else if ( order_number == 5 ) {
-				remaining_pizzas_group6 = 0;
-				total_pizzas_group6 = 48;
-				esc_2.nota_3.txt.text = remaining_pizzas_group6;
 			}
 			
 			_resetVisibility();
@@ -2840,33 +2558,20 @@ if (reversed == null) { reversed = false; }
 			var g3_p2 = esc_2.group_3.pizza2;
 			var g3_p3 = esc_2.group_3.pizza3;
 			var g3_p4 = esc_2.group_3.pizza4;
+			var g3_p5 = esc_2.group_3.pizza5;
 			// Group 4
 			var g4_p1 = esc_2.group_4.pizza1;
 			var g4_p2 = esc_2.group_4.pizza2;
 			var g4_p3 = esc_2.group_4.pizza3;
 			var g4_p4 = esc_2.group_4.pizza4;
 			var g4_p5 = esc_2.group_4.pizza5;
-			// Group 5
-			var g5_p1 = esc_2.group_5.pizza1;
-			var g5_p2 = esc_2.group_5.pizza2;
-			var g5_p3 = esc_2.group_5.pizza3;
-			var g5_p4 = esc_2.group_5.pizza4;
-			var g5_p5 = esc_2.group_5.pizza5;
-			// Group 6
-			var g6_p1 = esc_2.group_6.pizza1;
-			var g6_p2 = esc_2.group_6.pizza2;
-			var g6_p3 = esc_2.group_6.pizza3;
-			var g6_p4 = esc_2.group_6.pizza4;
-			var g6_p5 = esc_2.group_6.pizza5;
-			var g6_p6 = esc_2.group_6.pizza6;
-							 
+			var g4_p6 = esc_2.group_4.pizza6;
+			
 			var groups = [
 			g1_p1, g1_p2, g1_p3,
 			g2_p1, g2_p2, g2_p3, g2_p4,
-			g3_p1, g3_p2, g3_p3, g3_p4,
-			g4_p1, g4_p2, g4_p3, g4_p4, g4_p5,
-			g5_p1, g5_p2, g5_p3, g5_p4, g5_p5,
-			g6_p1, g6_p2, g6_p3, g6_p4, g6_p5, g6_p6,
+			g3_p1, g3_p2, g3_p3, g3_p4, g3_p5,
+			g4_p1, g4_p2, g4_p3, g4_p4, g4_p5, g4_p6
 			];
 				
 			
@@ -2902,33 +2607,20 @@ if (reversed == null) { reversed = false; }
 			var g3_p2 = esc_2.group_3.pizza2;
 			var g3_p3 = esc_2.group_3.pizza3;
 			var g3_p4 = esc_2.group_3.pizza4;
+			var g3_p5 = esc_2.group_3.pizza5;
 			// Group 4
 			var g4_p1 = esc_2.group_4.pizza1;
 			var g4_p2 = esc_2.group_4.pizza2;
 			var g4_p3 = esc_2.group_4.pizza3;
 			var g4_p4 = esc_2.group_4.pizza4;
 			var g4_p5 = esc_2.group_4.pizza5;
-			// Group 5
-			var g5_p1 = esc_2.group_5.pizza1;
-			var g5_p2 = esc_2.group_5.pizza2;
-			var g5_p3 = esc_2.group_5.pizza3;
-			var g5_p4 = esc_2.group_5.pizza4;
-			var g5_p5 = esc_2.group_5.pizza5;
-			// Group 6
-			var g6_p1 = esc_2.group_6.pizza1;
-			var g6_p2 = esc_2.group_6.pizza2;
-			var g6_p3 = esc_2.group_6.pizza3;
-			var g6_p4 = esc_2.group_6.pizza4;
-			var g6_p5 = esc_2.group_6.pizza5;
-			var g6_p6 = esc_2.group_6.pizza6;
-							 
+			var g4_p6 = esc_2.group_4.pizza6;
+								 
 			var groups = [
 			g1_p1, g1_p2, g1_p3,
 			g2_p1, g2_p2, g2_p3, g2_p4,
-			g3_p1, g3_p2, g3_p3, g3_p4,
-			g4_p1, g4_p2, g4_p3, g4_p4, g4_p5,
-			g5_p1, g5_p2, g5_p3, g5_p4, g5_p5,
-			g6_p1, g6_p2, g6_p3, g6_p4, g6_p5, g6_p6,
+			g3_p1, g3_p2, g3_p3, g3_p4, g3_p5,
+			g4_p1, g4_p2, g4_p3, g4_p4, g4_p5, g4_p6
 			];
 				
 			
@@ -2962,17 +2654,15 @@ if (reversed == null) { reversed = false; }
 		function feedback(){
 			
 			var table1 = 9;
-			var table2 = 19;
-			var table3 = 15;
-			var table4 = 16;
-			var table5 = 26;
-			var table6 = 27;
+			var table2 = 15;
+			var table3 = 16;
+			var table4 = 27;
 		
 			var pass = 0;
 				
-			console.log(table1 + ' ' + table2 + ' ' + table3 + ' ' + table4 + ' ' + table5 + ' ' + table6);
-			console.log(remaining_pizzas_group1 + ' ' + remaining_pizzas_group2 + ' ' + remaining_pizzas_group3 + ' ' + remaining_pizzas_group4 + ' ' + remaining_pizzas_group5 + ' ' + remaining_pizzas_group6);
-			console.log(total_pizzas_group1 + ' ' + total_pizzas_group2 + ' ' + total_pizzas_group3 + ' ' + total_pizzas_group4 + ' ' + total_pizzas_group5 + ' ' + total_pizzas_group6);
+			console.log(table1 + ' ' + table2 + ' ' + table3 + ' ' + table4);
+			console.log(remaining_pizzas_group1 + ' ' + remaining_pizzas_group2 + ' ' + remaining_pizzas_group3 + ' ' + remaining_pizzas_group4 );
+			console.log(total_pizzas_group1 + ' ' + total_pizzas_group2 + ' ' + total_pizzas_group3 + ' ' + total_pizzas_group4 );
 			
 			if ( remaining_pizzas_group1 == table1 && remaining_pizzas_group1 == total_pizzas_group1 ){
 				pass++;
@@ -2990,15 +2680,7 @@ if (reversed == null) { reversed = false; }
 				pass++;
 			}
 			
-			if ( remaining_pizzas_group5 == table5 && remaining_pizzas_group5 == total_pizzas_group5 ){
-				pass++;
-			}
-			
-			if ( remaining_pizzas_group6 == table6 && remaining_pizzas_group6 == total_pizzas_group6 ){
-				pass++;
-			}
-			
-			if(pass == 6){
+			if(pass == 4){
 				
 				esc_3.nota_f.txt_nf.text = '¡ BIEN HECHO !\n Has logrado contar correctamente los trozos de pizza que sobraron en cada meza.';		
 				esc_3.dst.visible = true;		
@@ -3007,7 +2689,6 @@ if (reversed == null) { reversed = false; }
 			}else{
 				
 				esc_3.nota_f.txt_nf.text = '¡ Has fallado !\n No has logrado contar correctamente los trozos de pizza que sobraron.\nIntentalo nuevamente';
-				//esc_3.nota_f.bkg_nf.scaleY = 1.2;
 				esc_3.dst.visible = false;
 				//failCanvas()
 			}
@@ -3106,17 +2787,8 @@ if (reversed == null) { reversed = false; }
 					else if ( order_number == 3 ){
 						
 						total_pizzas_group4--;
-					}
-					else if ( order_number == 4 ) {
-						
-						total_pizzas_group5--;
-					}
-					else if ( order_number == 5 ) {
-						
-						total_pizzas_group6--;
-					}
+					}			
 					
-					//item.visible = false;
 					hideComponent(item);
 					esc_2.boy.gotoAndPlay(1);
 					
@@ -3193,39 +2865,39 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/btn_.png?1663881898989", id:"btn_"},
-		{src:"images/btn_g.png?1663881898989", id:"btn_g"},
-		{src:"images/btn_mas.png?1663881898989", id:"btn_mas"},
-		{src:"images/btn_menos.png?1663881898989", id:"btn_menos"},
-		{src:"images/cursor.png?1663881898989", id:"cursor"},
-		{src:"images/destellos1.png?1663881898989", id:"destellos1"},
-		{src:"images/destellos2.png?1663881898989", id:"destellos2"},
-		{src:"images/fondo.jpg?1663881898989", id:"fondo"},
-		{src:"images/masticar1.png?1663881898989", id:"masticar1"},
-		{src:"images/niño1.png?1663881898989", id:"niño1"},
-		{src:"images/niño2.png?1663881898989", id:"niño2"},
-		{src:"images/nota1.png?1663881898989", id:"nota1"},
-		{src:"images/nota2.png?1663881898989", id:"nota2"},
-		{src:"images/nota3.png?1663881898989", id:"nota3"},
-		{src:"images/nota_final.png?1663881898989", id:"nota_final"},
-		{src:"images/p10.png?1663881898989", id:"p10"},
-		{src:"images/p11.png?1663881898989", id:"p11"},
-		{src:"images/p12.png?1663881898989", id:"p12"},
-		{src:"images/p13.png?1663881898989", id:"p13"},
-		{src:"images/p14.png?1663881898989", id:"p14"},
-		{src:"images/p15.png?1663881898989", id:"p15"},
-		{src:"images/p16.png?1663881898989", id:"p16"},
-		{src:"images/p17.png?1663881898989", id:"p17"},
-		{src:"images/rayitos1.png?1663881898989", id:"rayitos1"},
-		{src:"images/rayitos2.png?1663881898989", id:"rayitos2"},
-		{src:"images/Recurso6.png?1663881898989", id:"Recurso6"},
-		{src:"images/tabla.png?1663881898989", id:"tabla"},
-		{src:"images/tablaPizza.png?1663881898989", id:"tablaPizza"},
-		{src:"images/temp_.png?1663881898989", id:"temp_"},
-		{src:"images/tprobzoder.png?1663881898989", id:"tprobzoder"},
-		{src:"images/tprobzoizq.png?1663881898989", id:"tprobzoizq"},
-		{src:"images/tprocbza.png?1663881898989", id:"tprocbza"},
-		{src:"images/tprocrpo.png?1663881898989", id:"tprocrpo"}
+		{src:"images/btn_.png?1664230180567", id:"btn_"},
+		{src:"images/btn_g.png?1664230180567", id:"btn_g"},
+		{src:"images/btn_mas.png?1664230180567", id:"btn_mas"},
+		{src:"images/btn_menos.png?1664230180567", id:"btn_menos"},
+		{src:"images/cursor.png?1664230180567", id:"cursor"},
+		{src:"images/destellos1.png?1664230180567", id:"destellos1"},
+		{src:"images/destellos2.png?1664230180567", id:"destellos2"},
+		{src:"images/fondo.jpg?1664230180567", id:"fondo"},
+		{src:"images/masticar1.png?1664230180567", id:"masticar1"},
+		{src:"images/niño1.png?1664230180567", id:"niño1"},
+		{src:"images/niño2.png?1664230180567", id:"niño2"},
+		{src:"images/nota1.png?1664230180567", id:"nota1"},
+		{src:"images/nota2.png?1664230180567", id:"nota2"},
+		{src:"images/nota3.png?1664230180567", id:"nota3"},
+		{src:"images/nota_final.png?1664230180567", id:"nota_final"},
+		{src:"images/p10.png?1664230180567", id:"p10"},
+		{src:"images/p11.png?1664230180567", id:"p11"},
+		{src:"images/p12.png?1664230180567", id:"p12"},
+		{src:"images/p13.png?1664230180567", id:"p13"},
+		{src:"images/p14.png?1664230180567", id:"p14"},
+		{src:"images/p15.png?1664230180567", id:"p15"},
+		{src:"images/p16.png?1664230180567", id:"p16"},
+		{src:"images/p17.png?1664230180567", id:"p17"},
+		{src:"images/rayitos1.png?1664230180567", id:"rayitos1"},
+		{src:"images/rayitos2.png?1664230180567", id:"rayitos2"},
+		{src:"images/Recurso6.png?1664230180567", id:"Recurso6"},
+		{src:"images/tabla.png?1664230180567", id:"tabla"},
+		{src:"images/tablaPizza.png?1664230180567", id:"tablaPizza"},
+		{src:"images/temp_.png?1664230180567", id:"temp_"},
+		{src:"images/tprobzoder.png?1664230180567", id:"tprobzoder"},
+		{src:"images/tprobzoizq.png?1664230180567", id:"tprobzoizq"},
+		{src:"images/tprocbza.png?1664230180567", id:"tprocbza"},
+		{src:"images/tprocrpo.png?1664230180567", id:"tprocrpo"}
 	],
 	preloads: []
 };
