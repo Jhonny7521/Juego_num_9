@@ -1039,26 +1039,26 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(39));
 
 	// Capa_3
 	this.instance = new lib.boca2();
 	this.instance.setTransform(-2.1,-47.7);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(19).to({alpha:1},0).wait(1).to({x:-2.5},0).wait(1).to({x:-2.9},0).wait(1).to({x:-3.3},0).wait(1).to({x:-3.5,y:-47.5},0).wait(1).to({x:-3.7,y:-47.3},0).wait(1).to({x:-3.9,y:-47.1},0).wait(1).to({x:-4.1,y:-46.9},0).wait(1).to({x:-4.3,y:-46.7},0).wait(1).to({x:-4.5,y:-46.5},0).wait(1).to({x:-4.3,y:-46.3},0).wait(1).to({x:-4.1,y:-46.1},0).wait(1).to({x:-3.9,y:-45.9},0).wait(1).to({x:-3.7,y:-45.7},0).wait(1).to({x:-3.5,y:-45.5},0).wait(1).to({x:-3.3,y:-45.3},0).wait(1).to({x:-3.1,y:-45.5},0).wait(1).to({x:-2.9,y:-45.7},0).wait(1).to({x:-2.7,y:-45.9},0).wait(1).to({x:-2.5,y:-46.1},0).wait(1).to({x:-2.3,y:-46.3},0).wait(1).to({x:-2.1,y:-46.5},0).wait(1).to({y:-46.9},0).wait(1).to({y:-47.3},0).wait(1).to({y:-47.7},0).wait(1).to({x:-2.5},0).wait(1).to({x:-2.9},0).wait(1).to({x:-3.3},0).wait(1).to({x:-3.5,y:-47.5},0).wait(1).to({x:-3.7,y:-47.3},0).wait(1).to({x:-3.9,y:-47.1},0).wait(1).to({x:-4.1,y:-46.9},0).wait(1).to({x:-4.3,y:-46.7},0).wait(1).to({x:-4.5,y:-46.5},0).wait(1).to({x:-4.3,y:-46.3},0).wait(1).to({x:-4.1,y:-46.1},0).wait(1).to({x:-3.9,y:-45.9},0).wait(1).to({x:-3.7,y:-45.7},0).wait(1).to({x:-3.5,y:-45.5},0).wait(1).to({x:-3.3,y:-45.3},0).wait(1).to({x:-3.1,y:-45.5},0).wait(1).to({x:-2.9,y:-45.7},0).wait(1).to({x:-2.7,y:-45.9},0).wait(1).to({y:-46.3},0).wait(1).to({y:-46.7},0).wait(1).to({y:-47.1},0).wait(1).to({y:-47.5},0).wait(1).to({y:-47.9},0).wait(1).to({y:-48.3},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({alpha:1},0).wait(1).to({x:-2.5},0).wait(1).to({x:-2.9},0).wait(1).to({x:-3.3},0).wait(1).to({x:-3.6,y:-47.4},0).wait(1).to({x:-3.9,y:-47.1},0).wait(1).to({x:-4.2,y:-46.8},0).wait(1).to({x:-4.5,y:-46.5},0).wait(1).to({x:-4.2,y:-46.2},0).wait(1).to({x:-3.9,y:-45.9},0).wait(1).to({x:-3.6,y:-45.6},0).wait(1).to({x:-3.3,y:-45.3},0).wait(1).to({x:-3,y:-45.6},0).wait(1).to({x:-2.7,y:-45.9},0).wait(1).to({x:-2.4,y:-46.2},0).wait(1).to({x:-2.1,y:-46.5},0).wait(1).to({y:-47.1},0).wait(1).to({y:-47.7},0).wait(1).to({x:-2.7},0).wait(1).to({x:-3.3},0).wait(1).to({x:-3.6,y:-47.4},0).wait(1).to({x:-3.9,y:-47.1},0).wait(1).to({x:-4.2,y:-46.8},0).wait(1).to({x:-4.5,y:-46.5},0).wait(1).to({x:-4.2,y:-46.2},0).wait(1).to({x:-3.9,y:-45.9},0).wait(1).to({x:-3.6,y:-45.6},0).wait(1).to({x:-3.3,y:-45.3},0).wait(1).to({x:-3,y:-45.6},0).wait(1).to({x:-2.7,y:-45.9},0).wait(1).to({y:-46.5},0).wait(1).to({y:-47.1},0).wait(1).to({y:-47.7},0).wait(1).to({y:-48.3},0).wait(1));
 
 	// Capa_2
 	this.instance_1 = new lib.boca1();
 	this.instance_1.setTransform(-4,-46.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(19).to({alpha:0},0).wait(49));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({alpha:0},0).wait(34));
 
 	// Capa_1
 	this.instance_2 = new lib.niño2();
 	this.instance_2.setTransform(-93,-142);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39));
 
 	this._renderFirstFrame();
 
@@ -1679,7 +1679,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.esc_1, new cjs.Rectangle(1,1,960,560), null);
 
 
-(lib.group6 = function(mode,startPosition,loop,reversed) {
+(lib.group4 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1746,80 +1746,86 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Capa_3
-	this.text = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(179.1,146.8);
+	this.txt_p6 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p6.name = "txt_p6";
+	this.txt_p6.textAlign = "center";
+	this.txt_p6.lineHeight = 22;
+	this.txt_p6.lineWidth = 116;
+	this.txt_p6.parent = this;
+	this.txt_p6.setTransform(179.1,146.8);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape.setTransform(179.1,168.25);
 
-	this.text_1 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(0.85,146.8);
+	this.txt_p5 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p5.name = "txt_p5";
+	this.txt_p5.textAlign = "center";
+	this.txt_p5.lineHeight = 22;
+	this.txt_p5.lineWidth = 116;
+	this.txt_p5.parent = this;
+	this.txt_p5.setTransform(0.85,146.8);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_1.setTransform(0.85,168.25);
 
-	this.text_2 = new cjs.Text("se comieron 0 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(-177.1,146.8);
+	this.txt_p4 = new cjs.Text("se comieron 0 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p4.name = "txt_p4";
+	this.txt_p4.textAlign = "center";
+	this.txt_p4.lineHeight = 22;
+	this.txt_p4.lineWidth = 116;
+	this.txt_p4.parent = this;
+	this.txt_p4.setTransform(-177.1,146.8);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_2.setTransform(-177.1,168.25);
 
-	this.text_3 = new cjs.Text("se comieron 2 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 116;
-	this.text_3.parent = this;
-	this.text_3.setTransform(179.2,-58.7);
+	this.txt_p3 = new cjs.Text("se comieron 2 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p3.name = "txt_p3";
+	this.txt_p3.textAlign = "center";
+	this.txt_p3.lineHeight = 22;
+	this.txt_p3.lineWidth = 116;
+	this.txt_p3.parent = this;
+	this.txt_p3.setTransform(179.2,-58.7);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_3.setTransform(179.2,-37.25);
 
-	this.text_4 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 22;
-	this.text_4.lineWidth = 116;
-	this.text_4.parent = this;
-	this.text_4.setTransform(0.95,-58.7);
+	this.txt_p2 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p2.name = "txt_p2";
+	this.txt_p2.textAlign = "center";
+	this.txt_p2.lineHeight = 22;
+	this.txt_p2.lineWidth = 116;
+	this.txt_p2.parent = this;
+	this.txt_p2.setTransform(0.95,-58.7);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_4.setTransform(0.95,-37.25);
 
-	this.text_5 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_5.textAlign = "center";
-	this.text_5.lineHeight = 22;
-	this.text_5.lineWidth = 116;
-	this.text_5.parent = this;
-	this.text_5.setTransform(-177.25,-58.7);
+	this.txt_p1 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p1.name = "txt_p1";
+	this.txt_p1.textAlign = "center";
+	this.txt_p1.lineHeight = 22;
+	this.txt_p1.lineWidth = 116;
+	this.txt_p1.parent = this;
+	this.txt_p1.setTransform(-177.25,-58.7);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_5.setTransform(-177.8,-37.25);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.text_5},{t:this.shape_4},{t:this.text_4},{t:this.shape_3},{t:this.text_3},{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.txt_p1},{t:this.shape_4},{t:this.txt_p2},{t:this.shape_3},{t:this.txt_p3},{t:this.shape_2},{t:this.txt_p4},{t:this.shape_1},{t:this.txt_p5},{t:this.shape},{t:this.txt_p6}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.group6, new cjs.Rectangle(-242,-244.1,484.8,439.9), null);
+}).prototype = getMCSymbolPrototype(lib.group4, new cjs.Rectangle(-242,-244.1,484.8,439.9), null);
 
 
-(lib.group4 = function(mode,startPosition,loop,reversed) {
+(lib.group3 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1879,69 +1885,74 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Capa_3
-	this.text = new cjs.Text("se comieron 3 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(267.45,354.75);
+	this.txt_p5 = new cjs.Text("se comieron 3 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p5.name = "txt_p5";
+	this.txt_p5.textAlign = "center";
+	this.txt_p5.lineHeight = 22;
+	this.txt_p5.lineWidth = 116;
+	this.txt_p5.parent = this;
+	this.txt_p5.setTransform(267.45,354.75);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape.setTransform(267.45,376.2);
 
-	this.text_1 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(89.5,354.75);
+	this.txt_p4 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p4.name = "txt_p4";
+	this.txt_p4.textAlign = "center";
+	this.txt_p4.lineHeight = 22;
+	this.txt_p4.lineWidth = 116;
+	this.txt_p4.parent = this;
+	this.txt_p4.setTransform(89.5,354.75);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_1.setTransform(89.5,376.2);
 
-	this.text_2 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(445.8,149.25);
+	this.txt_p3 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p3.name = "txt_p3";
+	this.txt_p3.textAlign = "center";
+	this.txt_p3.lineHeight = 22;
+	this.txt_p3.lineWidth = 116;
+	this.txt_p3.parent = this;
+	this.txt_p3.setTransform(445.8,149.25);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_2.setTransform(445.8,170.7);
 
-	this.text_3 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 116;
-	this.text_3.parent = this;
-	this.text_3.setTransform(267.55,149.25);
+	this.txt_p2 = new cjs.Text("se comieron 4 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p2.name = "txt_p2";
+	this.txt_p2.textAlign = "center";
+	this.txt_p2.lineHeight = 22;
+	this.txt_p2.lineWidth = 116;
+	this.txt_p2.parent = this;
+	this.txt_p2.setTransform(267.55,149.25);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_3.setTransform(267.55,170.7);
 
-	this.text_4 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 22;
-	this.text_4.lineWidth = 116;
-	this.text_4.parent = this;
-	this.text_4.setTransform(89.35,149.25);
+	this.txt_p1 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p1.name = "txt_p1";
+	this.txt_p1.textAlign = "center";
+	this.txt_p1.lineHeight = 22;
+	this.txt_p1.lineWidth = 116;
+	this.txt_p1.parent = this;
+	this.txt_p1.setTransform(89.35,149.25);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_4.setTransform(88.8,170.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.text_4},{t:this.shape_3},{t:this.text_3},{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.txt_p1},{t:this.shape_3},{t:this.txt_p2},{t:this.shape_2},{t:this.txt_p3},{t:this.shape_1},{t:this.txt_p4},{t:this.shape},{t:this.txt_p5}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.group4, new cjs.Rectangle(25,-36,484.4,439.7), null);
+}).prototype = getMCSymbolPrototype(lib.group3, new cjs.Rectangle(25,-36,484.4,439.7), null);
 
 
-(lib.group3 = function(mode,startPosition,loop,reversed) {
+(lib.group2 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1994,55 +2005,59 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Capa_1
-	this.text = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(63.4,341.75);
+	this.txt_p4 = new cjs.Text("se comieron 6 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p4.name = "txt_p4";
+	this.txt_p4.textAlign = "center";
+	this.txt_p4.lineHeight = 22;
+	this.txt_p4.lineWidth = 116;
+	this.txt_p4.parent = this;
+	this.txt_p4.setTransform(63.4,341.75);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape.setTransform(63.4,363.2);
 
-	this.text_1 = new cjs.Text("se comieron 1 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(419.7,136.25);
+	this.txt_p3 = new cjs.Text("se comieron 1 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p3.name = "txt_p3";
+	this.txt_p3.textAlign = "center";
+	this.txt_p3.lineHeight = 22;
+	this.txt_p3.lineWidth = 116;
+	this.txt_p3.parent = this;
+	this.txt_p3.setTransform(419.7,136.25);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_1.setTransform(419.7,157.7);
 
-	this.text_2 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(241.45,136.25);
+	this.txt_p2 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p2.name = "txt_p2";
+	this.txt_p2.textAlign = "center";
+	this.txt_p2.lineHeight = 22;
+	this.txt_p2.lineWidth = 116;
+	this.txt_p2.parent = this;
+	this.txt_p2.setTransform(241.45,136.25);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_2.setTransform(241.45,157.7);
 
-	this.text_3 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 116;
-	this.text_3.parent = this;
-	this.text_3.setTransform(63.25,136.25);
+	this.txt_p1 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p1.name = "txt_p1";
+	this.txt_p1.textAlign = "center";
+	this.txt_p1.lineHeight = 22;
+	this.txt_p1.lineWidth = 116;
+	this.txt_p1.parent = this;
+	this.txt_p1.setTransform(63.25,136.25);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_3.setTransform(62.7,157.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.text_3},{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.txt_p1},{t:this.shape_2},{t:this.txt_p2},{t:this.shape_1},{t:this.txt_p3},{t:this.shape},{t:this.txt_p4}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.group3, new cjs.Rectangle(1,-49.2,484.2,439.9), null);
+}).prototype = getMCSymbolPrototype(lib.group2, new cjs.Rectangle(1,-49.2,484.2,439.9), null);
 
 
 (lib.group1 = function(mode,startPosition,loop,reversed) {
@@ -2107,40 +2122,43 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Capa_4
-	this.text = new cjs.Text("se comieron 3 pedazos", "18px 'Carton Six'", "#312782");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 22;
-	this.text.lineWidth = 116;
-	this.text.parent = this;
-	this.text.setTransform(451,203.45);
+	this.txt_p3 = new cjs.Text("se comieron 3 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p3.name = "txt_p3";
+	this.txt_p3.textAlign = "center";
+	this.txt_p3.lineHeight = 22;
+	this.txt_p3.lineWidth = 116;
+	this.txt_p3.parent = this;
+	this.txt_p3.setTransform(451,203.45);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape.setTransform(451,224.9);
 
-	this.text_1 = new cjs.Text("se comieron 7 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 116;
-	this.text_1.parent = this;
-	this.text_1.setTransform(272.75,203.45);
+	this.txt_p2 = new cjs.Text("se comieron 7 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p2.name = "txt_p2";
+	this.txt_p2.textAlign = "center";
+	this.txt_p2.lineHeight = 22;
+	this.txt_p2.lineWidth = 116;
+	this.txt_p2.parent = this;
+	this.txt_p2.setTransform(272.75,203.45);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_1.setTransform(272.75,224.9);
 
-	this.text_2 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 116;
-	this.text_2.parent = this;
-	this.text_2.setTransform(94.55,203.45);
+	this.txt_p1 = new cjs.Text("se comieron 5 pedazos", "18px 'Carton Six'", "#312782");
+	this.txt_p1.name = "txt_p1";
+	this.txt_p1.textAlign = "center";
+	this.txt_p1.lineHeight = 22;
+	this.txt_p1.lineWidth = 116;
+	this.txt_p1.parent = this;
+	this.txt_p1.setTransform(94.55,203.45);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AnzETQhkAAAAhkIAAldQAAhkBkAAIPnAAQBkAAAABkIAAFdQAABkhkAAg");
 	this.shape_2.setTransform(94,224.9);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.text_2},{t:this.shape_1},{t:this.text_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.txt_p1},{t:this.shape_1},{t:this.txt_p2},{t:this.shape},{t:this.txt_p3}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2166,21 +2184,21 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.timer).wait(1));
 
 	// group4
-	this.group_4 = new lib.group6();
+	this.group_4 = new lib.group4();
 	this.group_4.name = "group_4";
 	this.group_4.setTransform(469.6,272,1,1,0,0,0,0.4,0.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.group_4).wait(1));
 
 	// group3
-	this.group_3 = new lib.group4();
+	this.group_3 = new lib.group3();
 	this.group_3.name = "group_3";
 	this.group_3.setTransform(469.2,272.7,1,1,0,0,0,267.2,208.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.group_3).wait(1));
 
 	// group2
-	this.group_2 = new lib.group3();
+	this.group_2 = new lib.group2();
 	this.group_2.name = "group_2";
 	this.group_2.setTransform(468.8,271.25,1,1,0,0,0,242.1,194.9);
 
@@ -2299,6 +2317,8 @@ if (reversed == null) { reversed = false; }
 						 
 		var pizza_groups = [g1, g2, g3, g4];
 		
+		var pizzas_eaten = getRandomNumberPizzasEaten();
+		
 		var	total_pizzas_group1 = 24;
 		var	total_pizzas_group2 = 32;
 		var	total_pizzas_group3 = 40;
@@ -2324,11 +2344,26 @@ if (reversed == null) { reversed = false; }
 		var time;
 		var timer;
 		
+		function getRandomInt(min, max) {
+			min = Math.ceil(min);
+			max = Math.floor(max);
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+		
+		function getRandomNumberPizzasEaten(){
+			var arreglo = [];
+			for (let count = 0; count < 18; count++){
+				number = getRandomInt(0,8);
+				arreglo.push(number);		
+			}
+			return arreglo;
+		}
+		
 		function setListeners() {
 			
 			esc_1.btn_comenzar.addEventListener("click", _startGame.bind(this));
 			esc_2.btn_next.addEventListener("click", _changePizzaGroup.bind(this));
-			esc_2.btn_finish.addEventListener("click", _end.bind(this));
+			esc_2.btn_finish.addEventListener("click", _endTime.bind(this));
 			esc_3.btn_reload.addEventListener("click", _reload.bind(this));
 		
 			esc_2.btn_next.visible = true;
@@ -2336,10 +2371,10 @@ if (reversed == null) { reversed = false; }
 			esc_2.nota_3.btn_more.addEventListener("click", _increase.bind(this));
 			esc_2.nota_3.btn_less.addEventListener("click", _decrease.bind(this));
 		
-			esc_2.group_1.btn_reload.addEventListener("click", _reload_group.bind(this));
-			esc_2.group_2.btn_reload.addEventListener("click", _reload_group.bind(this));
-			esc_2.group_3.btn_reload.addEventListener("click", _reload_group.bind(this));
-			esc_2.group_4.btn_reload.addEventListener("click", _reload_group.bind(this));
+			esc_2.group_1.btn_reload.addEventListener("click", _reload_group1.bind(this));
+			esc_2.group_2.btn_reload.addEventListener("click", _reload_group2.bind(this));
+			esc_2.group_3.btn_reload.addEventListener("click", _reload_group3.bind(this));
+			esc_2.group_4.btn_reload.addEventListener("click", _reload_group4.bind(this));
 			
 			console.log('true');
 			
@@ -2354,6 +2389,7 @@ if (reversed == null) { reversed = false; }
 			esc_2.nota_2.txt.text = `Mesa ${order_number + 1}`;
 			esc_2.nota_3.txt.text = remaining_pizzas_group1;
 			
+			setNumberOfRandomPizzas();
 			hidePizzaGroups();
 			setProperties();
 			
@@ -2374,7 +2410,15 @@ if (reversed == null) { reversed = false; }
 			
 			hideComponent(pizza_groups[order_number]);
 			hideComponent(esc_2.nota_2.txt);
-			hideComponent(esc_2.nota_3.txt);	
+			hideComponent(esc_2.nota_3.txt);
+			
+			if (order_number == 0){
+				group1_pizza_count();
+			}else if(order_number == 1){
+				group2_pizza_count();
+			}else if(order_number == 2){
+				group3_pizza_count();
+			}
 			
 			order_number++;	
 			esc_2.nota_2.txt.text = `Mesa ${order_number + 1}`;
@@ -2390,12 +2434,7 @@ if (reversed == null) { reversed = false; }
 			}
 		}
 		
-		function _end(){
-			
-			_current = 3;
-			moveStage();
-			feedback();
-		}
+		
 		
 		function _reload(){
 		
@@ -2415,10 +2454,10 @@ if (reversed == null) { reversed = false; }
 			esc_2.x = 0;
 			esc_3.x = 0;
 			
-			total_pizzas_group1 = 24;
-			total_pizzas_group2 = 32;
-			total_pizzas_group3 = 40;
-			total_pizzas_group4 = 48;
+			total_pizzas_group1 = 0;
+			total_pizzas_group2 = 0;
+			total_pizzas_group3 = 0;
+			total_pizzas_group4 = 0;
 		
 			remaining_pizzas_group1 = 0;
 			remaining_pizzas_group2 = 0;
@@ -2428,7 +2467,10 @@ if (reversed == null) { reversed = false; }
 			order_number = 0;
 			
 			hidePizzaGroups();
-			_resetVisibility();
+			_reset_visibility_and_position_group1();
+			_reset_visibility_and_position_group2();
+			_reset_visibility_and_position_group3();
+			_reset_visibility_and_position_group4();
 			
 			esc_2.btn_finish.visible = false;
 			esc_2.btn_next.visible = true;
@@ -2484,30 +2526,36 @@ if (reversed == null) { reversed = false; }
 			}
 		}
 		
-		function _reload_group(){
+		function _reload_group1(){
 			
-			if (order_number == 0){
-				remaining_pizzas_group1 = 0;
-				total_pizzas_group1 = 24;
-				esc_2.nota_3.txt.text = remaining_pizzas_group1;
-			}
-			else if ( order_number == 1 ){
-				remaining_pizzas_group2 = 0;
-				total_pizzas_group2 = 32;
-				esc_2.nota_3.txt.text = remaining_pizzas_group2;
-			}
-			else if (order_number == 2 ){
-				remaining_pizzas_group3 = 0;
-				total_pizzas_group3 = 40;
-				esc_2.nota_3.txt.text = remaining_pizzas_group3;
-			}
-			else if ( order_number == 3 ){
-				remaining_pizzas_group4 = 0;
-				total_pizzas_group4 = 48;
-				esc_2.nota_3.txt.text = remaining_pizzas_group4;
-			}
+			remaining_pizzas_group1 = 0;
+			total_pizzas_group1 = 0;
+			esc_2.nota_3.txt.text = remaining_pizzas_group1;
+			_reset_visibility_and_position_group1();
+		}
+		
+		function _reload_group2(){
 			
-			_resetVisibility();
+			remaining_pizzas_group2 = 0;
+			total_pizzas_group2 = 0;
+			esc_2.nota_3.txt.text = remaining_pizzas_group2;
+			_reset_visibility_and_position_group2();
+		}
+		
+		function _reload_group3(){
+		
+			remaining_pizzas_group3 = 0;
+			total_pizzas_group3 = 0;
+			esc_2.nota_3.txt.text = remaining_pizzas_group3;
+			_reset_visibility_and_position_group3();
+		}
+		
+		function _reload_group4(){
+		
+			remaining_pizzas_group4 = 0;
+			total_pizzas_group4 = 0;
+			esc_2.nota_3.txt.text = remaining_pizzas_group4;
+			_reset_visibility_and_position_group4();
 		}
 		
 		function hideComponent(evt) {
@@ -2592,30 +2640,30 @@ if (reversed == null) { reversed = false; }
 			}
 		}
 		
-		function _resetVisibility(){
-			// Group 1
-			var g1_p1 = esc_2.group_1.pizza1;	
-			var g1_p2 = esc_2.group_1.pizza2;
-			var g1_p3 = esc_2.group_1.pizza3;
+		function setNumberOfRandomPizzas(){
+			
+			var g1_p1 = esc_2.group_1.txt_p1;	
+			var g1_p2 = esc_2.group_1.txt_p2;
+			var g1_p3 = esc_2.group_1.txt_p3;
 			// Group 2
-			var g2_p1 = esc_2.group_2.pizza1;
-			var g2_p2 = esc_2.group_2.pizza2;
-			var g2_p3 = esc_2.group_2.pizza3;
-			var g2_p4 = esc_2.group_2.pizza4;
+			var g2_p1 = esc_2.group_2.txt_p1;
+			var g2_p2 = esc_2.group_2.txt_p2;
+			var g2_p3 = esc_2.group_2.txt_p3;
+			var g2_p4 = esc_2.group_2.txt_p4;
 			// Group 3
-			var g3_p1 = esc_2.group_3.pizza1;
-			var g3_p2 = esc_2.group_3.pizza2;
-			var g3_p3 = esc_2.group_3.pizza3;
-			var g3_p4 = esc_2.group_3.pizza4;
-			var g3_p5 = esc_2.group_3.pizza5;
+			var g3_p1 = esc_2.group_3.txt_p1;
+			var g3_p2 = esc_2.group_3.txt_p2;
+			var g3_p3 = esc_2.group_3.txt_p3;
+			var g3_p4 = esc_2.group_3.txt_p4;
+			var g3_p5 = esc_2.group_3.txt_p5;
 			// Group 4
-			var g4_p1 = esc_2.group_4.pizza1;
-			var g4_p2 = esc_2.group_4.pizza2;
-			var g4_p3 = esc_2.group_4.pizza3;
-			var g4_p4 = esc_2.group_4.pizza4;
-			var g4_p5 = esc_2.group_4.pizza5;
-			var g4_p6 = esc_2.group_4.pizza6;
-								 
+			var g4_p1 = esc_2.group_4.txt_p1;
+			var g4_p2 = esc_2.group_4.txt_p2;
+			var g4_p3 = esc_2.group_4.txt_p3;
+			var g4_p4 = esc_2.group_4.txt_p4;
+			var g4_p5 = esc_2.group_4.txt_p5;
+			var g4_p6 = esc_2.group_4.txt_p6;
+			
 			var groups = [
 			g1_p1, g1_p2, g1_p3,
 			g2_p1, g2_p2, g2_p3, g2_p4,
@@ -2624,13 +2672,146 @@ if (reversed == null) { reversed = false; }
 			];
 				
 			
-			for( var i = 0 ; i < groups.length ; i++ ){
+			for( var count = 0 ; count < groups.length ; count++ ){
 		
-				var pizza = [groups[i].p1 , groups[i].p2 , groups[i].p3 , groups[i].p4 , groups[i].p5 , groups[i].p6 , groups[i].p7 , groups[i].p8 ];
+				groups[count].text = `SE COMIERON ${pizzas_eaten[count]} PEDAZOS`;
+				
+			}
+		}
+		
+		function group1_pizza_count(){
+			// Group 1
+			var g1_p1 = esc_2.group_1.pizza1;	
+			var g1_p2 = esc_2.group_1.pizza2;
+			var g1_p3 = esc_2.group_1.pizza3;
+			
+			var group1 = [g1_p1, g1_p2, g1_p3];
+			
+			total_pizzas_group1 = pizza_count(group1);	
+		}
+		
+		function group2_pizza_count(){	
+			// Group 2
+			var g2_p1 = esc_2.group_2.pizza1;
+			var g2_p2 = esc_2.group_2.pizza2;
+			var g2_p3 = esc_2.group_2.pizza3;
+			var g2_p4 = esc_2.group_2.pizza4;
+								 
+			var group2 = [g2_p1, g2_p2, g2_p3, g2_p4];		
+			
+			total_pizzas_group2 = pizza_count(group2);
+		}
+		
+		function group3_pizza_count(){
+			// Group 3
+			var g3_p1 = esc_2.group_3.pizza1;
+			var g3_p2 = esc_2.group_3.pizza2;
+			var g3_p3 = esc_2.group_3.pizza3;
+			var g3_p4 = esc_2.group_3.pizza4;
+			var g3_p5 = esc_2.group_3.pizza5;
+			
+			var group3 = [g3_p1, g3_p2, g3_p3, g3_p4, g3_p5];		
+			
+			total_pizzas_group3 = pizza_count(group3);
+		}
+		
+		function group4_pizza_count(){
+			// Group 4
+			var g4_p1 = esc_2.group_4.pizza1;
+			var g4_p2 = esc_2.group_4.pizza2;
+			var g4_p3 = esc_2.group_4.pizza3;
+			var g4_p4 = esc_2.group_4.pizza4;
+			var g4_p5 = esc_2.group_4.pizza5;
+			var g4_p6 = esc_2.group_4.pizza6;
+			
+			var group4 = [g4_p1, g4_p2, g4_p3, g4_p4, g4_p5, g4_p6];		
+			
+			total_pizzas_group4 = pizza_count(group4);
+		}
+		
+		function pizza_count(arrayGroup){
+			
+			var i;
+			var j;
+			var pizza;
+			var count = 0;
+			
+			for( i = 0 ; i < arrayGroup.length ; i++ ){
+		
+				pizza = [
+				arrayGroup[i].p1 , arrayGroup[i].p2 , arrayGroup[i].p3 , arrayGroup[i].p4 , 
+				arrayGroup[i].p5 , arrayGroup[i].p6 , arrayGroup[i].p7 , arrayGroup[i].p8 ];
+				
+				for ( j = 0 ; j < pizza.length ; j++){
+					if(pizza[j].x == pizza[j].originX){
+						count += 1;
+					}
+				}
+			}
+			
+			return count;
+		}
+		
+		function _reset_visibility_and_position_group1(){
+			// Group 1
+			var g1_p1 = esc_2.group_1.pizza1;	
+			var g1_p2 = esc_2.group_1.pizza2;
+			var g1_p3 = esc_2.group_1.pizza3;
+						
+			var	groups = [g1_p1, g1_p2, g1_p3];				
+			
+			_reset_visibility(groups);
+		}
+		
+		function _reset_visibility_and_position_group2(){
+			// Group 2
+			var g2_p1 = esc_2.group_2.pizza1;
+			var g2_p2 = esc_2.group_2.pizza2;
+			var g2_p3 = esc_2.group_2.pizza3;
+			var g2_p4 = esc_2.group_2.pizza4;
+			
+			var	groups = [g2_p1, g2_p2, g2_p3, g2_p4];
+				
+			_reset_visibility(groups);
+		}
+		
+		function _reset_visibility_and_position_group3(){
+			// Group 3
+			var g3_p1 = esc_2.group_3.pizza1;
+			var g3_p2 = esc_2.group_3.pizza2;
+			var g3_p3 = esc_2.group_3.pizza3;
+			var g3_p4 = esc_2.group_3.pizza4;
+			var g3_p5 = esc_2.group_3.pizza5;
+				
+			var	groups = [g3_p1, g3_p2, g3_p3, g3_p4, g3_p5];
+			
+			_reset_visibility(groups);
+		}
+		
+		function _reset_visibility_and_position_group4(){
+			// Group 4
+			var g4_p1 = esc_2.group_4.pizza1;
+			var g4_p2 = esc_2.group_4.pizza2;
+			var g4_p3 = esc_2.group_4.pizza3;
+			var g4_p4 = esc_2.group_4.pizza4;
+			var g4_p5 = esc_2.group_4.pizza5;
+			var g4_p6 = esc_2.group_4.pizza6;
+								 
+			var groups = [g4_p1, g4_p2, g4_p3, g4_p4, g4_p5, g4_p6];
+			
+			_reset_visibility(groups);
+		}
+		
+		function _reset_visibility(arrayGroup){
+			
+			for( var i = 0 ; i < arrayGroup.length ; i++ ){
+		
+				var pizza = [arrayGroup[i].p1 , arrayGroup[i].p2 , arrayGroup[i].p3 , arrayGroup[i].p4 , arrayGroup[i].p5 , arrayGroup[i].p6 , arrayGroup[i].p7 , arrayGroup[i].p8 ];
 				
 				for (var j = 0 ; j < pizza.length ; j++){
 					pizza[j].x = pizza[j].originX;
 					pizza[j].y = pizza[j].originY;
+					//pizza[j].visible = true;
 					pizza[j].alpha = 1;
 				}
 			}
@@ -2653,16 +2834,16 @@ if (reversed == null) { reversed = false; }
 		
 		function feedback(){
 			
-			var table1 = 9;
-			var table2 = 15;
-			var table3 = 16;
-			var table4 = 27;
-		
+			var table1 = 24 - (pizzas_eaten[0] + pizzas_eaten[1] + pizzas_eaten[2]);
+			var table2 = 32 - (pizzas_eaten[3] + pizzas_eaten[4] + pizzas_eaten[5] + pizzas_eaten[6]);
+			var table3 = 40 - (pizzas_eaten[7] + pizzas_eaten[8] + pizzas_eaten[9] + pizzas_eaten[10] + pizzas_eaten[11]);
+			var table4 = 48 - (pizzas_eaten[12] + pizzas_eaten[13] + pizzas_eaten[14] + pizzas_eaten[15] + pizzas_eaten[16]  + pizzas_eaten[17]);
+				
 			var pass = 0;
 				
 			console.log(table1 + ' ' + table2 + ' ' + table3 + ' ' + table4);
 			console.log(remaining_pizzas_group1 + ' ' + remaining_pizzas_group2 + ' ' + remaining_pizzas_group3 + ' ' + remaining_pizzas_group4 );
-			console.log(total_pizzas_group1 + ' ' + total_pizzas_group2 + ' ' + total_pizzas_group3 + ' ' + total_pizzas_group4 );
+			console.log ( total_pizzas_group1 + ' ' + total_pizzas_group2 + ' ' + total_pizzas_group3 + ' ' + total_pizzas_group4 );
 			
 			if ( remaining_pizzas_group1 == table1 && remaining_pizzas_group1 == total_pizzas_group1 ){
 				pass++;
@@ -2729,12 +2910,13 @@ if (reversed == null) { reversed = false; }
 		
 		function timeOver(){
 			
-			_end();
+			_endTime();
 		}
 		
-		function _end(){
+		function _endTime(){
 			
 			clearInterval(timer);
+			group4_pizza_count();
 			_current = 3;
 			moveStage();
 			feedback();
@@ -2770,26 +2952,11 @@ if (reversed == null) { reversed = false; }
 				
 				var pt = item.localToLocal(item.pc.x , item.pc.y , objective);
 				if (objective.hitTest(pt.x , pt.y)) 
-				{			
-				
-					if (order_number == 0){
-						
-						total_pizzas_group1--;				
-					}
-					else if ( order_number == 1 ){
-						
-						total_pizzas_group2--;
-					}
-					else if (order_number == 2 ){
-						
-						total_pizzas_group3--;
-					}
-					else if ( order_number == 3 ){
-						
-						total_pizzas_group4--;
-					}			
-					
-					hideComponent(item);
+				{				
+					//hideComponent(item);
+					createjs.Tween.get(item)
+						.to({ alpha: 0 }, 200, createjs.Ease.circInOut);
+					//item.visible = false;
 					esc_2.boy.gotoAndPlay(1);
 					
 				}
@@ -2865,39 +3032,39 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/btn_.png?1664230180567", id:"btn_"},
-		{src:"images/btn_g.png?1664230180567", id:"btn_g"},
-		{src:"images/btn_mas.png?1664230180567", id:"btn_mas"},
-		{src:"images/btn_menos.png?1664230180567", id:"btn_menos"},
-		{src:"images/cursor.png?1664230180567", id:"cursor"},
-		{src:"images/destellos1.png?1664230180567", id:"destellos1"},
-		{src:"images/destellos2.png?1664230180567", id:"destellos2"},
-		{src:"images/fondo.jpg?1664230180567", id:"fondo"},
-		{src:"images/masticar1.png?1664230180567", id:"masticar1"},
-		{src:"images/niño1.png?1664230180567", id:"niño1"},
-		{src:"images/niño2.png?1664230180567", id:"niño2"},
-		{src:"images/nota1.png?1664230180567", id:"nota1"},
-		{src:"images/nota2.png?1664230180567", id:"nota2"},
-		{src:"images/nota3.png?1664230180567", id:"nota3"},
-		{src:"images/nota_final.png?1664230180567", id:"nota_final"},
-		{src:"images/p10.png?1664230180567", id:"p10"},
-		{src:"images/p11.png?1664230180567", id:"p11"},
-		{src:"images/p12.png?1664230180567", id:"p12"},
-		{src:"images/p13.png?1664230180567", id:"p13"},
-		{src:"images/p14.png?1664230180567", id:"p14"},
-		{src:"images/p15.png?1664230180567", id:"p15"},
-		{src:"images/p16.png?1664230180567", id:"p16"},
-		{src:"images/p17.png?1664230180567", id:"p17"},
-		{src:"images/rayitos1.png?1664230180567", id:"rayitos1"},
-		{src:"images/rayitos2.png?1664230180567", id:"rayitos2"},
-		{src:"images/Recurso6.png?1664230180567", id:"Recurso6"},
-		{src:"images/tabla.png?1664230180567", id:"tabla"},
-		{src:"images/tablaPizza.png?1664230180567", id:"tablaPizza"},
-		{src:"images/temp_.png?1664230180567", id:"temp_"},
-		{src:"images/tprobzoder.png?1664230180567", id:"tprobzoder"},
-		{src:"images/tprobzoizq.png?1664230180567", id:"tprobzoizq"},
-		{src:"images/tprocbza.png?1664230180567", id:"tprocbza"},
-		{src:"images/tprocrpo.png?1664230180567", id:"tprocrpo"}
+		{src:"images/btn_.png?1664562879515", id:"btn_"},
+		{src:"images/btn_g.png?1664562879515", id:"btn_g"},
+		{src:"images/btn_mas.png?1664562879515", id:"btn_mas"},
+		{src:"images/btn_menos.png?1664562879515", id:"btn_menos"},
+		{src:"images/cursor.png?1664562879515", id:"cursor"},
+		{src:"images/destellos1.png?1664562879515", id:"destellos1"},
+		{src:"images/destellos2.png?1664562879515", id:"destellos2"},
+		{src:"images/fondo.jpg?1664562879515", id:"fondo"},
+		{src:"images/masticar1.png?1664562879515", id:"masticar1"},
+		{src:"images/niño1.png?1664562879515", id:"niño1"},
+		{src:"images/niño2.png?1664562879515", id:"niño2"},
+		{src:"images/nota1.png?1664562879515", id:"nota1"},
+		{src:"images/nota2.png?1664562879515", id:"nota2"},
+		{src:"images/nota3.png?1664562879515", id:"nota3"},
+		{src:"images/nota_final.png?1664562879515", id:"nota_final"},
+		{src:"images/p10.png?1664562879515", id:"p10"},
+		{src:"images/p11.png?1664562879515", id:"p11"},
+		{src:"images/p12.png?1664562879515", id:"p12"},
+		{src:"images/p13.png?1664562879515", id:"p13"},
+		{src:"images/p14.png?1664562879515", id:"p14"},
+		{src:"images/p15.png?1664562879515", id:"p15"},
+		{src:"images/p16.png?1664562879515", id:"p16"},
+		{src:"images/p17.png?1664562879515", id:"p17"},
+		{src:"images/rayitos1.png?1664562879515", id:"rayitos1"},
+		{src:"images/rayitos2.png?1664562879515", id:"rayitos2"},
+		{src:"images/Recurso6.png?1664562879515", id:"Recurso6"},
+		{src:"images/tabla.png?1664562879515", id:"tabla"},
+		{src:"images/tablaPizza.png?1664562879515", id:"tablaPizza"},
+		{src:"images/temp_.png?1664562879515", id:"temp_"},
+		{src:"images/tprobzoder.png?1664562879515", id:"tprobzoder"},
+		{src:"images/tprobzoizq.png?1664562879515", id:"tprobzoizq"},
+		{src:"images/tprocbza.png?1664562879515", id:"tprocbza"},
+		{src:"images/tprocrpo.png?1664562879515", id:"tprocrpo"}
 	],
 	preloads: []
 };
